@@ -33,10 +33,12 @@ gem 'spring',        group: :development
 # gem 'unicorn'
 
 # Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem 'flickraw'
 
+gem 'rails_12factor', group: :production
 
+ruby "2.0.0"
