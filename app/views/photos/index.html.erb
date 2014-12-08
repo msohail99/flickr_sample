@@ -1,0 +1,10 @@
+
+<%= form_for :photo, :url => {:action => 'show'} do |f| %>
+<p>
+  <%= f.label :"Search By Tag" %><br>
+  <%= f.text_field :tag_value %>
+</p>
+<p>
+  <%= f.submit "Search Photo" %>
+</p>
+<% end %>
